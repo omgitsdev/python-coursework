@@ -50,7 +50,7 @@ def isHarshad(x):
     total = 0
     for y in range (1, length+1):
         total += (x/(10**(y-1))%10)
-            
+
     if (x % total == 0):
         return bool(1)
     else:
@@ -63,7 +63,7 @@ def isHexagonal(x):
         return bool(1)
     else:
        return bool(0)
-    
+
 def main():
     #Asks user for an input number and then displays properties
     num = input ("Please enter a number between 1 and 1000: ")
@@ -94,4 +94,4 @@ def main():
         print "is not hexagonal"
 
 if __name__ == "__main__":
-    main() 
+    main()

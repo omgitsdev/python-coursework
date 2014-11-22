@@ -1,0 +1,11 @@
+Superman:Christopher Reeve,Gene Hackman
+The French Connection:Gene Hackman,Laurence Olivier
+The Prince and the Showgirl:Laurence Olivier,Marilyn Monroe
+Some Like It Hot:Marilyn Monroe, Jack Lemmon,Tony Curtis
+The Apartment:Jack Lemmon,Shirley Maclaine,Fred McMurray
+In Her Shoes:Shirley Maclaine,Cameron Diaz,Toni Collette
+Vanilla Sky:Cameron Diaz,Tom Cruise
+Few Good Men:Tom Cruise,Kevin Bacon,Jack Nicholson,Kiefer Sutherland
+The Departed:Jack Nicholson,Mark Wahlberg, 
+The Fighter:Mark Wahlberg,Amy Adams,Christian Bale
+The Dark Knight:Christian Bale,Heath Ledger,Morgan Freeman

@@ -1,0 +1,36 @@
+createUnigramDictionary(filename) - returns a dictionary of words and their frequencies
+
+removeAllPunctuation(string, list of disallowed characters) - string with the disallowed characters removed
+
+removeMrandMrs(filename) - given a filename, open the file and remove every single instance of the word Mr. and Mrs.
+
+writeDictToFile(dictionary, filename) - goes through the dictionary that is provided and writes the key value pairs in that dictionary into
+                                        the filename that is provided. This function does not return anything
+
+ignoreNames(mainfilename, characterfilename) - takes the main file and removes instances of characters/names from that file. The characterfilename tells you
+which file you need to look up in order to figure out which characters to ignore. The function in this case explicitly writes to a hardcoded file name called
+'HPMinusNames.txt'. This function does not return a value
+
+getSentences(filename) - given a filename, open that file for reading and return a list of sentences. That is, a list wherein each element of a list is a sentence.
+
+getBigramFreqFromSentence(sentence) - given a sentence (string) compute the frequency of every bigram and return that in dictionary form. For instance 
+getBigramFreqFromSentence('What is and what is not true is yet to be established') returns
+{What is : 2, is and : 1, and what : 1, ....}
+
+ignoreNamesInSentence(string, characterfilename) - goes through the given string and accounts for names. This returns another string with the names being 
+replaced by the '#'. Note that in the case of unigrams, names are basically useless and we want to not consider them at all. In the case of bigrams, 
+names act as separators and hence we need the '#' or some kind of symbol so that when we go through and compute the bigrams we can ignore the ones that have this 
+special '#' symbol.
+
+getBigramFreqFromFile(filename) - this takes in a filename and returns a dictionary of bigrams and their frequencies. The output of this function is similar to 
+the output of getBigramFreqFromSentence in that both of them return a dictionary. However, while this function takes in a filename, the former function takes 
+in a string.
+
+createContingency(bigram, bigramFilename, unigramFilename) - this takes in a bigram (just a string) and a bigramFilename and a unigramfilename and computes
+the contingency matrix. this function returns a list of lists. The first list is the first row of the matrix. The second list is the second row of the matrix.
+
+probStart(startString, filename) - given a start string (just one word) and a filename, compute the probability that a sentence begins with that startstring. 
+So split your file into sentences. Count the number of times that the sentence begins with the word provided as startString. Return the probability as a number between
+0 and 1. 
+
+
