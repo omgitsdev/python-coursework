@@ -2,14 +2,10 @@
 
 def isPrime(x):
     # Determines if a number is prime (divisible only by itself and 1)
-    prime = 1
-    for y in range(2,x):
-        if x%y == 0:
-            prime = 0
-    if prime == 0:
-        return bool(0)
-    elif prime == 1:
-        return bool(1)
+    for y in range(2, x):
+        if x % y == 0:
+            return False
+    return True
 
 def isPerfect(x):
     # Determines if a number is perfect
