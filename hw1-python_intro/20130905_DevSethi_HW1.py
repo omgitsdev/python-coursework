@@ -67,31 +67,31 @@ def isHexagonal(x):
 def main():
     #Asks user for an input number and then displays properties
     num = input ("Please enter a number between 1 and 1000: ")
-    print str(num),
+    print(str(num)),
     if isPrime(num):
-        print "is prime,",
+        print("is prime,"),
     else:
-        print "is not prime,",
+        print("is not prime,"),
     if isPerfect(num):
-        print "is perfect,",
+        print("is perfect,"),
     else:
-        print "is not perfect,",
+        print("is not perfect,"),
     if isAbundant(num):
-        print "is abunadnt,",
+        print("is abunadnt,"),
     else:
-        print "is not abundant,",
+        print("is not abundant,"),
     if isNarcissistic(num):
-        print "is Narcissistic,",
+        print("is Narcissistic,"),
     else:
-        print "is not Narcissistic,",
+        print("is not Narcissistic,"),
     if isHarshad(num):
-        print "is Harshad,",
+        print("is Harshad,"),
     else:
-        print "is not Harshad,",
+        print("is not Harshad,"),
     if isHexagonal(num):
-        print "is hexagonal"
+        print("is hexagonal")
     else:
-        print "is not hexagonal"
+        print("is not hexagonal")
 
 if __name__ == "__main__":
     main()
